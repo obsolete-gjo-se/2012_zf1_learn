@@ -1,0 +1,3 @@
+Dieses Verzeichnis ist für eigene Anwendungsspezifische Web-Service Dateien welche 
+von der eigenen Anwendung angeboten werden, oder für die Implementierung 
+eines » Service Layers für eigene Modelle.

@@ -1,0 +1,3 @@
+Dieses Verzeichnis enthält Maintenance und/oder Build Skripte. Solche Skripte können Commandline, 
+Cron oder Phing Build Skripte enthalten die nicht wärend der Laufzeit ausgeführt werden, 
+aber Teil für das korrekte Funktionieren der Anwendung sind.

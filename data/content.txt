@@ -1,0 +1,6 @@
+Dieses Verzeichnis bietet einen Ort an dem Anwendungsdaten gespeichert werden 
+die angreifbar und möglicherweise temporär sind. Die Veränderung von Daten 
+in diesem Verzeichnis kann dazu führen das die Anwendung fehlschlägt. 
+Die Informationen in diesem Verzeichnis können, oder auch nicht, in ein Subversion 
+Repository übertragen werden. Beispiele von Dingen in diesem Verzeichnis sind Session Dateien, 
+Cache Dateien, SQLite Datenbanken, Logs und Indezes.

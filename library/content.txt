@@ -1,0 +1,11 @@
+
+Da ich einen Ort habe, wo alle Bibliotheken "projektunabhänig" gespeichert werden, benötige ich dieses
+Verzeichnis nicht.
+
+Dieses Verzeichnis ist für übliche Bibliotheken von denen die Anwendung abhängt, 
+und es sollte im include_path von PHP sein. Entwickler sollten den Bibliotheks-Code 
+Ihrer Anwendung in diesem Verzeichnis, unter einem eindeutigen Namespace platzieren, 
+und den Richtlinien folgen die im Handbuch von PHP unter » Userland Naming Guide 
+beschrieben sind, sowie denen die von Zend selbst beschrieben sind.; 
+Dieses Verzeichnis kann auch den Zend Framework selbst enthalten; wenn dem so ist, 
+würde er unter library/Zend/ platziert werden.

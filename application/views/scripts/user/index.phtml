@@ -1,0 +1,16 @@
+<br />
+<br />
+<div id="view-content">
+	<p>
+		<a
+			href="<?php echo $this->url(
+			        array('controller' => 'index', 'action' => 'index'), 'default', true)?>">Index</a>
+	</p>
+
+	User: <br />
+	<ul>
+    <?php foreach ($this->entries as $entry): ?>
+    <li><?php echo 'Vorname: ' . $this->escape($entry->firstname) . ' und Email: ' . $this->escape($entry->email) ?></li>
+    <?php endforeach ?>
+    </ul>
+</div>
